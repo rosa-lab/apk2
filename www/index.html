@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>Test de inteligencia</title>
+      <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>          
+    <nav>
+        <div class="nav-wrapper green darken-1">
+            <a href="#" class="brand-logo">RANDOM TEST</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="sass.html">Inicio</a></li>
+                    <li><a href="badges.html">Nosotros</a></li>
+                    <li><a href="collapsible.html">Contáctanos</a></li>
+                </ul>
+        </div>
+    </nav>
+
+
+     <div class="pages navbar-through toolbar-through">
+        <div data-page="index" class="page">
+            <div class="page-content">
+                <div class="content-block" >
+                    <h5>    Responde el siguiente cuestionario seleccionando la casilla de acuerdo a tus conocimientos</h5></br>
+
+
+                    
+ <form method="post" action="../envia.php" >
+
+                            
+                        <!--PREGUNTA 1-->
+                        <h6>Pregunta 1: <em>¿Cuánto es 2 + 2?</em></h6>
+                            <label>
+                                <input class="with-gap" name="pregunta1" type="radio" value="A" onclick="respuesta1('A')" />
+                                <span>2</span>
+                            </label>
+                            <label>
+                                <input class="with-gap" name="pregunta1" type="radio"  value="B" onclick="respuesta1('B')"/>
+                                <span>4</span>
+                            </label>
+                            <label>
+                                <input class="with-gap" name="pregunta1" type="radio" value="C" onclick="respuesta1('C')"/>
+                                <span>6</span>
+                            </label>
+                        </p>
+
+                        <!--PREGUNTA 2-->
+                        <p>
+                        <h6>Pregunta 2: <em>¿Qué personaje aparecerá en el billete de 50 libras inglesas?</em></h6> 
+                            <label>
+                                <input class="with-gap" name="pregunta2" type="radio" value="A" onclick="respuesta2('A')"/>
+                                <span>Iron Man</span>
+                            </label>
+                            <label>
+                                <input class="with-gap" name="pregunta2" type="radio" value="B" onclick="respuesta2('B')"/>
+                                <span>Turim</span>
+                            </label>
+                            <label>
+                                <input class="with-gap" name="pregunta2" type="radio" value="C" onclick="respuesta2('C')"/>
+                                <span>Capitán América</span>
+                            </label>
+                        </p>
+
+                        <!--PREGUNTA 3-->
+                        <p>
+                        <h6>Pregunta 3: <em>¿Cuál es el último libro de la biblia?</em></h6> 
+                            <label>
+                                <input class="with-gap" name="pregunta3" type="radio" value="A" onclick="respuesta3('A')"/>
+                                <span>Malaquías</span>
+                            </label>
+                            <label>
+                                <input class="with-gap" name="pregunta3" type="radio" value="B" onclick="respuesta3('B')"/>
+                                <span>Zacarías</span>
+                            </label>
+                            <label>
+                                <input class="with-gap" name="pregunta3" type="radio" value="C" onclick="respuesta3('C')"/>
+                                <span>Apocalipsis</span>
+                            </label>
+                        </p>
+
+                        <!--PREGUNTA 4-->                                      
+                        <p>
+                        <h6>Pregunta 4: <em>¿Cuál es el apellido del primer hombre araña?</em></h6>                         
+                            <label>
+                                <input class="with-gap" name="pregunta4" type="radio" value="A" onclick="respuesta4('A')"/>
+                                <span>McGuire</span>
+                            </label>
+                            <label>
+                                <input class="with-gap" name="pregunta4" type="radio" value="B" onclick="respuesta4('B')"/>
+                                <span>Garfield</span>
+                            </label>
+                            <label>
+                                <input class="with-gap" name="pregunta4" type="radio" value="C" onclick="respuesta4('C')"/>
+                                <span>Holland</span>
+                            </label>
+                        </p>             
+                        
+                        <!--PREGUNTA 5-->        
+                        <p>
+                        <h6>Pregunta 5: <em>¿Cómo se escribe lápiz en inglés?</em></h6>
+                            <label>
+                                <input class="with-gap" name="pregunta5" type="radio" value="A" onclick="respuesta5('A')"/>
+                                <span>Pen</span>
+                            </label>
+                            <label>
+                                <input class="with-gap" name="pregunta5" type="radio" value="B" onclick="respuesta5('B')"/>
+                                <span>Pencil</span>
+                            </label>
+                            <label>
+                                <input class="with-gap" name="pregunta5" type="radio" value="C" onclick="respuesta5('C')"/>
+                                <span>Pineapple</span>
+                            </label>
+                        </p>  
+
+
+ <label >Nombre del usuario:</label>
+                            <br>
+
+                            <input class="rosa" type="text" name="nom" placeholder="Ej. Fulano" required  />
+                            <br>
+                        <center><button  class="btn waves-effect waves-light green darken-1" type="submit" name="action" >REVISAR</button> 
+
+</form>      
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>
